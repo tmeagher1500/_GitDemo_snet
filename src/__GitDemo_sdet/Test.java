@@ -4,13 +4,13 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		String hungry = "yes";
-		
-		if (hungry == "yes") 
-			System.out.println("eat something");
-		else {
-			System.out.println("Do work ...");
-		}
+		boolean dog = false;
+		boolean cat = true;
+
+		if (dog == true)
+			System.out.println("Bark!!! Bark!!! Bark!!!");
+		else if (cat == true)
+			System.out.println("Meow! Purrrrrr!");
 
 	}
 
